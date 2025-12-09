@@ -121,4 +121,4 @@ If you are using this repository for your paper, please cite our work
 
 ## **License**
 
-See [LICENSE](https://github.com/ATC24-SAFusion/SAFusion/blob/main/LICENSE.txt).
+See [LICENSE](https://github.com/zqming-cs/SAFusion/blob/main/LICENSE.txt).
