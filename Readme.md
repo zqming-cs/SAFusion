@@ -60,7 +60,7 @@ The workflow of the __SAFusion__ __Generator__ module：
 
 ## **Get the code**
 ```
-git clone https://github.com/SAFusion/SAFusion.git
+git clone https://github.com/zqming-cs/SAFusion.git
 cd SAFusion
 pip install -r requirements.txt
 HOROVOD_GPU_OPERATIONS=NCCL pip install horovod==0.28.0
