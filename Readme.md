@@ -7,8 +7,8 @@ This repository contains __SAFusion__'s source code, as well as a set of benchma
 This code repository covers:
 ### __SAFusion Framework__
 - SAF(Naive): Sparsification-ahead tensor fusion
-- SAF-Inter: Aligned inter-worker gradient tensor fusion
-- SAF-(Inter+Intra): Adaptive intra-worker buffer sizing
+- SAFusion-Inter: Aligned inter-worker gradient tensor fusion
+- SAFusion-(Inter+Intra): Adaptive intra-worker buffer sizing
 
 ### __State-of-the-art tensor fusion schemes__
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 HOROVOD_GPU_OPERATIONS=NCCL pip install horovod==0.28.0
 ```
 
-if pip installation fails, please try to upgrade pip via `pip install --upgrade pip`. If [Horovod](https://github.com/horovod/horovod) installation with NCCL failed, please check the installation [guide](https://horovod.readthedocs.io/en/stable/install_include.html).
+If pip installation fails, please try to upgrade pip via `pip install --upgrade pip`. If [Horovod](https://github.com/horovod/horovod) installation with NCCL failed, please check the installation [guide](https://horovod.readthedocs.io/en/stable/install_include.html).
 
 ## **Quick start**
 The primary benchmark is provided in `example`. 
